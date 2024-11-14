@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Hệ thống ATM</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-list>
+    <ion-item><ion-label>---Đăng nhập---</ion-label></ion-item>
+    <ion-item> Tàikhoản: 
+      <ion-input type="email" [(ngModel)]="email" class="highlight-input"></ion-input>
+    </ion-item>
+    <ion-item> Mậtkhẩu: 
+      <ion-input type="password" [(ngModel)]="password" class="highlight-input"></ion-input>
+    </ion-item>
+  </ion-list>
+  <ion-button expand="full" (click)="onLogin()">Nhập</ion-button>
+  <ion-button expand="full" (click)="addAccount()">Thêm</ion-button>
+  <ion-button expand="full" (click)="deleteAccount()">Xóa</ion-button>
+  <ion-button expand="full" (click)="viewAllAccounts()">Xem tất cả</ion-button>
+
+  
+</ion-content>

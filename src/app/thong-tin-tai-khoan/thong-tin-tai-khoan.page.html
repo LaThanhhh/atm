@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button text="Back" defaultHref="/home"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Hệ thống ATM</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-list >
+    <ion-item>
+      <ion-label>---Tài khoản: {{ email }}---</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label>---Chi tiết---</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label>Số tiền còn lại: {{ balance }} </ion-label>
+    </ion-item>
+  </ion-list>
+</ion-content>

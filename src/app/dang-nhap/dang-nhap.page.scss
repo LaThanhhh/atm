@@ -1,0 +1,29 @@
+ion-label {
+    font-size: 16px;
+  }
+  ion-title{
+    text-align: center;
+  }
+ 
+  .highlight-input {          
+    color: #000;               
+  }
+  .highlight-input:hover {          
+    background-color: #f9f9ab;              
+  }
+  
+  ion-item{
+    font-size: 16px;
+  }
+  ion-button {
+    --border-radius: 10px;
+    text-transform: capitalize;
+  }
+  ion-content {
+    --background: #f0f0f5;
+  }
+
+.custom-alert .alert-message {
+  text-align: center;
+  font-size: 16px; /* Adjust size as needed */
+}
